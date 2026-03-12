@@ -195,3 +195,33 @@ name = "this is a name variable"
 for i in name:
     print(i)
 ```
+
+##### range
+
+- 语法：range(start, end, step)
+- 作用：生成一个整数序列
+- 参数：
+  - start：起始值，默认为 0
+  - end：结束值，默认为 0
+  - step：步长，默认为 1
+
+```python
+for i in range(10):
+    print(i)
+```
+
+##### 变量的作用域
+
+很神奇，for 循环中定义的变量，在循环结束后，仍然可以访问。
+
+##### 循环中断
+
+- break：中断循环
+- continue：跳过本次循环，继续下一次循环
+
+```python
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+```
